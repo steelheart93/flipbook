@@ -1,0 +1,45 @@
+body {
+	overflow: hidden;
+	background-color: #fcfcfc;
+	margin: 0;
+	padding: 0;
+}
+
+.flipbook {
+	width: 922px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.flipbook .page {
+	width: 461px;
+	height: 600px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.flipbook .page {
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.flipbook .page img {
+	-webkit-user-select: none;
+	user-select: none;
+	margin: 0;
+}
+
+.flipbook .shadow {
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	transition: box-shadow 0.5s;
+	-webkit-box-shadow: 0 0 20px #ccc;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.flip-control {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
